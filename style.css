@@ -153,7 +153,6 @@ body {
     width: 40px;
     height: 20px;
     background-color: #3f3e3e;
-
     border: black 3px solid;
 }
 
@@ -163,6 +162,7 @@ body {
     background-color: #3f3e3e;
     border-left: black 3px solid;
     border-right: black 3px solid;
+
 
 
     display: flex;
@@ -187,10 +187,9 @@ body {
 .centrocua{
     width: 10px;
     height: 20px;
-    background-color: transparent;
+    background-color: #d3a81e;
     border: 3px solid black;
 }
-
 
 .tri {
     width: 0;
@@ -206,7 +205,6 @@ body {
     border-right: 30px solid transparent;
     border-left: 30px solid transparent;
     border-top: 20px solid #737373;
-
 }
 
 .uptecho{
