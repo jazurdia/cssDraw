@@ -8,20 +8,27 @@ body {
 }
 
 .trapecio-top {
-    width: 500px;
+    width: 608px;
     height: 0;
     border-right: 30px solid transparent;
     border-left: 30px solid transparent;
-    border-top: 40px solid #939292;
+    border-top: 40px solid #737373;
+
+
 }
 
 .soporte {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-end;
+    flex-direction: row;
     background-color: #939292;
-    width: 500px;
+    width: 600px;
     height: 500px;
+    margin: 0 15px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top : 3px solid black;
 }
 
 .centro {
@@ -43,31 +50,190 @@ body {
     border-top: 10px solid #000000;
     border-left: 10px solid #000000;
     border-right: 10px solid #000000;
-
 }
-
 
 .rectangulocentro {
     width: 200px;
-    height: 300px;
+    height: 250px;
     background-color: #ffffff;
     overflow: hidden;
 
     border-left: black 10px solid;
     border-right: black 10px solid;
-
 }
 
-
 .top-grande{
-    width: 560px;
-    height: 30px;
+    width: 660px;
+    height: 60px;
     background-color: #939292;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: 3px solid black;
 }
 
 .corona1{
-    width: 500px;
-    height: 30px;
+    width: 550px;
+    height: fit-content;
     background-color: #939292;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 3px solid black;
+
 }
+
+.leftcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.rightcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 40px;
+}
+
+.cuadradoinf{
+    width: 80px;
+    height: 200px;
+    background-color: #3f3e3e;
+    margin-bottom: 40px;
+    border: 3px solid black;
+}
+
+.cuadradosup{
+    width: 120px;
+    height: 90px;
+    background-color: #3f3e3e;
+    margin-bottom: 130px;
+    border: 3px solid black;
+
+}
+
+.circuloraro{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d3a81e;
+    border: 3px solid black;
+}
+
+.bottomcorona1{
+    width: 610px;
+    height: 10px;
+    background-color: #000000;
+}
+
+.minicol{
+    width: 40px;
+    height: 80px;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.minicolpie{
+    width: 40px;
+    height: 20px;
+    background-color: #3f3e3e;
+
+    border: black 3px solid;
+}
+
+.minicolcentro{
+    width: 25px;
+    height: 40px;
+    background-color: #3f3e3e;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.escudomin{
+    /* es un circulo */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3f3e3e;
+    border: 3px dashed black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrocua{
+    width: 10px;
+    height: 20px;
+    background-color: transparent;
+    border: 3px solid black;
+}
+
+
+.tri {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #777676;
+}
+
+.techo{
+    width: 560px;
+    height: 0;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-top: 20px solid #737373;
+
+}
+
+.uptecho{
+    width: 617px;
+    height: 20px;
+    background-color: #939292;
+    border: 3px solid black;
+}
+
+.upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.picossup{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+
+
+
+
 
